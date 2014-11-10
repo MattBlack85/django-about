@@ -1,7 +1,7 @@
 SECRET_KEY = 'NotVerySecretKey'
 
 INSTALLED_APPS = (
-    'djabout.maintenance',
+    'djabout',
 )
 
 DATABASES = {
@@ -12,6 +12,6 @@ DATABASES = {
 
 USE_TZ = True
 
-ROOT_URLCONF = 'djabout.maintenance.urls'
+ROOT_URLCONF = 'djabout.urls'
 
 APP_VERSION = 'To override'

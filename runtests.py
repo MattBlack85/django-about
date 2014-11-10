@@ -16,7 +16,7 @@ def run_tests():
         from django.test.simple import DjangoTestSuiteRunner
         test_runner = DjangoTestSuiteRunner(verbosity=1)
         return test_runner.run_tests([
-            'maintenance',
+            'djabout',
         ])
 
 
